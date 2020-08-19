@@ -11,8 +11,8 @@ public abstract class UserRoomDatabase : RoomDatabase() {
     abstract fun taskDao() : TaskDao
 
     companion object {
-        // Singleton prevents multiple instances of database opening at the
-        // same time.
+        // Singleton previene múltiples instancias de apertura de base de datos en el
+        // Mismo tiempo.
         @Volatile
         private var INSTANCE: UserRoomDatabase? = null
 

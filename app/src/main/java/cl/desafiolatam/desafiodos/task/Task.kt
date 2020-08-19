@@ -1,6 +1,5 @@
 package cl.desafiolatam.desafiodos.task
 
-import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 
